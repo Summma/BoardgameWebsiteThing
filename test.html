@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Board Game Night - February 24th, 2023</title>
+    <style>
+      body {
+        background-color: #222;
+        color: #fff;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+
+      .hero {
+        background-image: url('/Users/alejandropinto/Movies/htmlhtml/zoltan-tasi-HTpAIzZRHvw-unsplash.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      .hero h1 {
+        font-size: 72px;
+        text-shadow: 2px 2px #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .hero h2 {
+        font-size: 36px;
+        text-shadow: 2px 2px #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      .board-games {
+        margin-top: 50px;
+      }
+
+      .board-games h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .board-games ul {
+        columns: 2;
+      }
+
+      .board-games li {
+        font-size: 24px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      .board-games li::before {
+        content: '•';
+        font-size: 36px;
+        margin-right: 10px;
+        color: #fff;
+      }
+
+      .invite {
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      .invite h3 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      .invite p {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .invite a {
+        font-size: 24px;
+        color: #fff;
+        background-color: #f39c12;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.2s ease;
+      }
+
+      .invite a:hover {
+        background-color: #e67e22;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .hero h1 {
+          font-size: 48px;
+        }
+
+        .hero h2 {
+          font-size: 24px;
+        }
+
+        .board-games ul {
+          columns: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="container">
+        <h1>Board Game Night</h1>
+        <h2>Pirate-themed for High Schoolers</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="board-games">
+        <h2>Board Games:</h2>
+        <ul>
+        <li>Chess</li>
+        <li>Sushi Go</li>
+        <li>I'm a little crabby</li>
+        <li>Throw Throw Avocado</li>
+        <li>And much, much more!</li>
+      </ul>
+    </div>
+
+    <div class="invite">
+      <h3>Join us on February 24th, 2023</h3>
+      <p>Bring your friends and come ready to play!</p>
+      <a href="#">RSVP Now</a>
+    </div>
+  </body>
+</html>
